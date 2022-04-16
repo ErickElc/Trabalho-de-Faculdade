@@ -1,0 +1,482 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:  "Lora" ,Georgia, serif;
+    
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+html{
+    overflow-y:hidden;
+}
+
+body,.background{
+    background:#116688 ;
+}
+.content_header{
+    padding-bottom: 100px;
+   
+}
+#image_one , .image_header{
+    display: inline;
+    padding: 10px;
+}
+#image_one{
+     border-bottom:#EEEE22 solid 4px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+}
+.text_header{
+    float: right;
+    color: #EEEE22;
+    margin: 35px;
+    font-size: 18px;
+    text-align: end;
+}
+#telefone{
+    text-align: end;
+}
+.text-div{
+    margin-bottom: 5px;
+    color: #EEEE22;
+}
+ .lista_links{
+    display: block;
+    margin-left: 70px;
+}
+.lis{
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #EEEE22;
+}
+.image_main{
+    float: right;
+}
+.content_main{
+    position:absolute;
+    top: 200px;
+    margin-left: 50%;
+    margin-right: 300px;
+
+}
+.text{
+    position:absolute;
+    top: 820px;
+    
+    margin-left: 46%;
+    
+
+}
+#Text_down{
+    text-align: center;
+    font-size: 24px;
+    color: #EEEE22;
+
+}
+.text-memoria{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 36px;
+    color: #EEEE22;
+}
+.retangulo{
+    background-color: white;
+    border: #000055 solid 4px;
+    width: 340px;
+    padding: 130px;
+    padding-bottom: 250px;
+    
+    
+}
+
+.container-memoria{
+    margin-top: 50px;
+}
+.content-retangulo{
+   position: absolute;
+   top: 141px;
+   right: 84px;
+   font-family: rubik, Verdana, sans-serif;
+}
+.Titulo-lista{
+    color: #EE0000;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: rubik, Verdana, sans-serif;
+}
+.list-memoria{
+    color: #114455;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: 520;
+    font-family: rubik, Verdana, sans-serif;
+}
+.text-red{
+    color:#EE0000;
+    font-weight: bold;
+    font-family: rubik, Verdana, sans-serif;
+}
+.title-tabela{
+    background-color: #229955;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    padding-right: 305.5px;
+    padding-left: 305.5px;
+    color: #EEEE22;
+    
+}
+.th-thead{
+    background-color: #22BB66;
+    padding: 10px;
+    color:   #FFFFFF;
+}
+.final{
+    display: block;
+}
+.background-white{
+    background-color: #FFFFFF;
+    color: #000066;
+    padding: 0px;
+    text-align: center;
+}
+.background-blue{
+    background-color: #2299DD;
+    color:   #FFFFFF;
+    padding: 0px;
+    padding-top: 82px;
+    padding-bottom: 82px;
+    padding-left: 10px;
+}
+#texto-red{
+    color:  #EE0000;
+    font-weight: bold;
+}
+.tabela-toda{
+    position: relative;
+    left: 30%;
+    top: -304px;
+    font-family: Rubik, verdana, sans-serif ;
+    font-weight: bold;
+    height: 700px;
+    
+}
+#texto-principal{
+    margin-bottom: 30px;
+    text-align: center;
+    color: #EEEE22;
+}
+.tabela-compras{
+    background-color: #33BBBB;
+    border: 3px solid #EEEE22;
+    color: white;
+    font-weight: 700;
+    display: inline-block;
+    position: absolute;
+    top: 204px;
+    right: 112px;
+}
+
+#EMAIL{
+    display: inline;
+    padding: 4px;
+    border-radius: 10px;
+    padding-right: 10px;
+}
+#email{
+    border-radius: 6px;
+    border: 0.1px solid gray;
+    margin-right: 50px;
+    padding-bottom: 10px;
+}
+#PassWord{
+    display: inline;
+    margin-left: 138px;
+    margin-right: 15px;
+    
+}
+#identi{
+    margin-left: 25px;
+
+} 
+.text-table, #text-white{
+    color: white;
+}
+.identificacao{
+    /* border: 2px solid white; */
+    padding: 15px;
+}
+#text-identi{
+    margin-top: 10px;
+    
+}
+#passworD{
+    width: 90px;
+    border-radius: 6px;
+    border: 0.1px solid gray;
+    padding-bottom: 10px;
+}
+#here{
+    text-decoration: none;
+    color: #EEEE22;
+}
+.content-compras{
+    padding: 30px;
+}
+.email-password{
+    margin-bottom: 10px;
+}
+
+#produtos{
+    display: inline;
+    color: white;
+    
+}
+#quadro-branco{
+    background-color: white;
+    display: block;
+    padding-right: 350px;
+    height: 90px;
+    margin-bottom:35px ;
+    
+}
+.botao-list{
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    border: 10px;
+    clear: right;
+}
+.selecao{
+    padding: 4px;
+    border-radius: 10px;
+    padding-right: 100px;
+    color: black;
+    margin-right: 158px;
+    margin-bottom: 20px;
+
+}
+#segundo-quadro{
+    padding-top: 10px;
+    width: 60px;
+    position: absolute;
+    top: 414px;
+    left: 552px;
+    padding-left: 30px;
+    border-radius: 10px;
+    border: none;
+}
+#valor{
+    margin-left: 400px;
+    margin-top: 30px;
+    position: absolute;
+    bottom: 246px;
+    
+}
+.lista-de-Compras{
+    padding: 30px;
+}
+#lista-de-compras{
+    margin-left: 25px;
+}
+fieldset{
+   border: 2px solid white;
+}
+.numbers-card ,.validade,.parcelas{
+    width: 45px;
+    border-radius: 6px;
+    border: 0.1px solid gray;
+    height: 23px;
+}
+.numbers-card{
+    margin-right: 10px;
+}
+#data-cards{
+    margin-left: 25px;
+}
+#Numeros{
+    display: inline;
+    
+    padding-right: 14px;
+}
+.numeros-deCartao,.validadee,.parcelass{
+    padding: 10px;
+}
+.validade, #validade{
+    display: inline;
+    
+}
+#validade{
+    padding-right: 7.9px;
+}
+#separador{
+    border: none;
+}
+#parcela{
+    display: inline;
+    margin-right: 9px;
+}
+#parcelass{
+    margin-left: 10px;
+    display: inline;
+}
+.bandeira-card{
+    
+    padding-bottom: 10px;
+}
+.bandeira-cardd{
+    display: inline;
+}
+.ultimo-field{
+    width: 105px;
+    
+    position: absolute;
+    left: 561px;
+    bottom: 74px;
+    padding-top: 100px;
+}
+.content-field{
+    padding: 10px;
+    position: absolute;
+    left: 4px;
+    bottom: -8px;
+}
+.Bandeirass{
+    padding-bottom: 10px;
+}
+#Band{
+    margin-left: 6px;
+}
+.submit-clear{
+    margin-left: 521px;
+    margin-top: 10px;
+}
+#passworDD{
+    width: 90px;
+    border-radius: 6px;
+    border: 0.1px solid gray;
+    padding-bottom: 10px;
+}
+#PassWordd{
+    padding-top: 100px;
+    display: inline;
+    padding-right: 34px;
+   
+    
+}
+#emaill{
+    display: block;
+    position: absolute;
+    top: 120px;
+    left: 142px;
+    width: 90px;
+    border-radius: 6px;
+    border: 0.1px solid gray;
+    padding-bottom: 10px;
+    padding-right: 423px;
+}
+.senha{
+    padding-top: 10px;
+}
+#confirme{
+    display: inline;
+    margin-top: 100px;
+    margin-left: 260px;
+}
+.confirme{
+    position: absolute;
+    top: 157px;
+    left: 216px;
+}
+.para-nome{
+    display: inline;
+    margin: 10px;
+    padding: 2px;
+}
+.para-adress{
+    display: inline;
+    
+}
+#text-adress{
+    height: 60px;
+    margin-left: 110px;
+    padding-right: 284px;
+    border: 0.1px solid gray;
+    border-radius: 6px;
+}
+#para-adress{
+    padding: 10px;
+    position: absolute;
+}
+#nome-input{
+    margin-right: 27px;
+}
+#input-nome{
+    padding-right: 358px;
+    margin-left: 10px;
+    border-radius: 6px;
+    border: 0.1px solid gray;
+}
+.para-telefone{
+    display: inline;
+    margin: 10px;
+    margin-right: 8px;
+}
+#input-telefone{
+    border-radius: 6px;
+    border: 0.1px solid gray;
+    padding: 2px;
+    width: 113px;
+    
+}
+.para-celular{
+    display: inline;
+}
+#celular{
+    margin-left: 181px;
+    margin-right: 10px;
+}
+#input-celular{
+    width: 113px;
+    padding: 2px;
+    border-radius: 6px;
+    border: 0.1px solid gray;
+}
+.nascimento-inputs{
+    width: 50px;
+    border-radius: 6px;
+    border: 0.1px solid gray;
+    padding-top: 6px;
+    padding-bottom: 6px ;
+    display: inline;
+    margin: 8px;
+
+}
+#fieldset-nascimento, .para-nascimento{
+    display: inline;
+}
+#fieldset-nascimento{
+    padding: 15px;
+    margin-left: 9px;
+}
+#ultimo-input{
+    width: 75px;
+}
+.genero,.Nascimento, #fieldset-genero, #fieldset-nascimento{
+    display: inline;
+    margin-bottom: 10px;
+}
+#fieldset-genero{
+    margin-left: 0px;
+    padding: 27px;
+   
+}
+.Nascimento,.genero{
+    padding-bottom: 10px;
+}
+.name-input{
+    font-size: 20px;
+    margin: 8px;
+}

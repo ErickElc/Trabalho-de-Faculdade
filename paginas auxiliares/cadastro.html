@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Document
+    </title>
+    <link rel="stylesheet" href="../style..css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background">
+        <header>
+            <div class="content_header">
+                <div id="image_one">
+                    <img src="../assests/PakiLogoTopo.png" alt="" class="image_header" width="500px">
+                </div>
+                <div class="text_header">
+                    <p class="text-div">
+                        Rua do Paço do Elefantinho, 123
+                    </p>
+                    <p id="telefone" class="text-div">
+                        Tel:(21) 4321-5678
+                    </p>
+                    <a href="https://mail.google.com/mail/u/3/#inbox?compose=CllgCJfrLTbMRcZzsfFwxjZVgmmCGnrBFWdqGwcdhXWKjWNfTpJcnghrMPvLCHMdznkHVJswNZg" class="text-div">contato@parquiderme.com.br</a>
+                </div>
+            </div>
+        </header>
+            <main>
+                <div class="content-main">
+                    <div class="lista_links">
+                        <ul>
+                            <li class="lis">
+                                <a href="../index.html" class="lis">
+                                    INICIAL
+                                </a>
+                                </li>
+                            <li class="lis">
+                                <a href="../paginas auxiliares/memorias.html" class="lis">
+                                    MEMÓRIAS
+                                </a>
+                            </li>
+                            <li class="lis">
+                                <a href="hds-ssd.html" class="lis">
+                                    HDs / SSDs
+                                </a>
+                                </li>
+                            <li class="lis">
+                                <a href="./cadastro.html" class="lis">
+                                    CADASTRO
+                                </a>
+                            </li>
+                            <li class="lis">
+                                <a href="./compras.html" class="lis">
+                                    COMPRAS
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tabela-compras">
+                        <div class="content-compras">
+                            <form action="" method="get">
+                                <h2 id="texto-principal">
+                                    Cadastro
+                                </h2>
+                                <fieldset>
+                                    <legend class="text-table" id="identi">Identificação</legend>
+                                    <div class="identificacao">
+                                        <div class="email-password">
+                                                <!-- EMAIL -->
+                                            <p id="EMAILl" class="text-table">E-mail:</p>
+                                            <input type="email" class="input-identificacao" id="emaill">
+            
+                                            <!-- 
+                                                PASSWORD
+                                            -->
+                                            <div class="senha">
+
+                                                <p id="PassWordd" class="text-table">Senha:</p>
+                                                <input type="password" class="input-identificacao" id="passworDD">
+                                                <div class="confirme">
+                                                    <p id="confirme">Confirme:</p>
+                                                    <input type="password" class="input-identificacao" id="passworDD">
+                                                </div>
+                                            </div>
+                                            <!--  -->
+                                        
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <fieldset>
+                                    <legend class="text-table" id="lista-de-compras">Dados Pessoais</legend>
+                                    <div class="dados-inicias">
+                                        <div class="nome-input">
+                                            <p class="para-nome" id="nome-input">Nome:</p>
+                                            <input type="text" name="" id="input-nome" class="para-nome">
+                                        </div>
+                                        <div class="adress-input">
+                                            <p class="para-adress" id="para-adress">Endereço:</p>
+                                            <textarea name="" id="text-adress" cols="30" rows="10" class="para-adress"></textarea>
+                                        </div>
+                                        <div class="telefone-input">
+                                            <p class="para-telefone">Telefone:</p>
+                                            <input type="text" name="" id="input-telefone" class="para-telefone">
+                                            <p class="para-celular" id="celular">Celular:</p>
+                                            <input type="text" name="" id="input-celular" class="para-celular">
+                                        </div>
+                                    </div>
+                                    <div class="Nascimento">
+                                        <fieldset id="fieldset-nascimento">
+                                            <legend>Nascimento</legend>
+                                            <input type="number" max="31" class="nascimento-inputs">
+                                            <p class="para-nascimento">/</p>
+                                            <input type="number" max="12" class="nascimento-inputs">
+                                            <p class="para-nascimento">/</p>
+                                            <input type="number" min="1910" max="2022" class="nascimento-inputs" id="ultimo-input">
+                                            
+                                        </fieldset>
+                                    </div>
+                                    <div class="genero">
+                                        <fieldset id="fieldset-genero">
+                                            <legend>Sexo</legend>
+                                            <input type="radio" id="Masc" name="Genero" value="Masc">
+                                            <label for="Masc" class="name-input">Mas</label>
+                                            <input type="radio" id="Fem" name="Genero" value="Fem">
+                                            <label for="Fem" class="name-input">Fem</label>
+                                            <input type="radio" id="Outro" name="Genero" value="Outro">
+                                            <label for="Outro " class="name-input">Outro</label>
+                                        </fieldset>
+                                    </div>
+                                </fieldset>
+                                <div class="submit-clear">
+                                    <input type="button" value="Cadastrar" class="botao-list">
+                                    <input type="button" value="Limpar"class="botao-list">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </main>
+    </div>
+</body>
+</html>
