@@ -95,8 +95,8 @@ body,.background{
 }
 .content-retangulo{
    position: absolute;
-   top: 141px;
-   right: 84px;
+   top: 157px;
+   right: 184px;
    font-family: rubik, Verdana, sans-serif;
 }
 .Titulo-lista{
@@ -107,11 +107,12 @@ body,.background{
 }
 .list-memoria{
     color: #114455;
-    margin-left: 70px;
-    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-bottom: 50px;
     font-size: 22px;
     font-weight: 520;
     font-family: rubik, Verdana, sans-serif;
+    list-style-type: none;
 }
 .text-red{
     color:#EE0000;
@@ -262,11 +263,11 @@ body,.background{
     padding-right: 350px;
     height: 90px;
     margin-bottom:35px ;
-    
+    color: black;
 }
 .botao-list{
     color: black;
-    padding: 5px;
+    padding: 7px;
     border-radius: 5px;
     border: 10px;
     clear: right;
@@ -289,6 +290,7 @@ body,.background{
     padding-left: 30px;
     border-radius: 10px;
     border: none;
+    color: black;
 }
 #valor{
     margin-left: 400px;
@@ -393,11 +395,13 @@ fieldset{
     position: absolute;
     top: 120px;
     left: 142px;
-    width: 90px;
+    width: 513px;
+    align-items: center;
     border-radius: 6px;
     border: 0.1px solid gray;
-    padding-bottom: 10px;
-    padding-right: 423px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    
 }
 .senha{
     padding-top: 10px;
@@ -502,3 +506,4 @@ fieldset{
     font-size: 20px;
     margin: 8px;
 }
+*{font-family: Verdana, Geneva, Tahoma, sans-serif;}

@@ -63,7 +63,7 @@
                     </div>
                     <div class="tabela-compras">
                         <div class="content-compras">
-                            <form action="" method="get">
+                            <form action="./enviarInfo" method="post">
                                 <h2 id="texto-principal">
                                     Cadastro
                                 </h2>
@@ -81,10 +81,10 @@
                                             <div class="senha">
 
                                                 <p id="PassWordd" class="text-table">Senha:</p>
-                                                <input type="password" class="input-identificacao" id="passworDD">
+                                                <input type="password" class="input-identificacao" id="passworDD" minlength="8">
                                                 <div class="confirme">
                                                     <p id="confirme">Confirme:</p>
-                                                    <input type="password" class="input-identificacao" id="passworDD">
+                                                    <input type="password" class="input-identificacao" id="passworDD" minlength="8">
                                                 </div>
                                             </div>
                                             <!--  -->
@@ -105,17 +105,17 @@
                                         </div>
                                         <div class="telefone-input">
                                             <p class="para-telefone">Telefone:</p>
-                                            <input type="text" name="" id="input-telefone" class="para-telefone">
+                                            <input type="number" name="" id="input-telefone" class="para-telefone" minlength="8">
                                             <p class="para-celular" id="celular">Celular:</p>
-                                            <input type="text" name="" id="input-celular" class="para-celular">
+                                            <input type="number" name="" id="input-celular" class="para-celular" minlength="9">
                                         </div>
                                     </div>
                                     <div class="Nascimento">
                                         <fieldset id="fieldset-nascimento">
                                             <legend>Nascimento</legend>
-                                            <input type="number" max="31" class="nascimento-inputs">
+                                            <input type="number"  min='1' max="31" class="nascimento-inputs">
                                             <p class="para-nascimento">/</p>
-                                            <input type="number" max="12" class="nascimento-inputs">
+                                            <input type="number" min='1' max="12" class="nascimento-inputs">
                                             <p class="para-nascimento">/</p>
                                             <input type="number" min="1910" max="2022" class="nascimento-inputs" id="ultimo-input">
                                             
@@ -134,8 +134,8 @@
                                     </div>
                                 </fieldset>
                                 <div class="submit-clear">
-                                    <input type="button" value="Cadastrar" class="botao-list">
-                                    <input type="button" value="Limpar"class="botao-list">
+                                    <button type="submit" value="Cadastrar" class="botao-list">Cadastrar</button>
+                                    <button type="submit" value="Limpar"class="botao-list">Limpar</button>
                                 </div>
                             </form>
                         </div>

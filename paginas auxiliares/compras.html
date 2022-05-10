@@ -89,32 +89,34 @@
                                     <legend class="text-table" id="lista-de-compras">Lista de Compras</legend>
                                     <div class="lista-de-Compras">
                                         <p id="produtos">produtos:</p>
-                                        <select name="seleccao" id="" class="selecao" value="---">
-                                            <optgroup label="Memória DDR3">
-                                                <option value="">Kingston 4Gb</option>
-                                                <option value="">Samsung 8Gb</option>
-                                            </optgroup>
-                                            <optgroup label="Memória DDR4">
-                                                <option value="">Kingston fury 8Gb</option>
-                                                <option value="">Cosair Vengeance 8Gb</option>
-                                            </optgroup>
-                                            <optgroup label="HD Sata III">
-                                                <option value="">Western Digital 500 Gb</option>
-                                                <option value="">Seagate 1 TB</option>
-                                            </optgroup>
-                                            <optgroup label="SSD Sata III">
-                                                <option value="">Samdisk 480 Gb</option>
-                                                <option value="">Kingston 960 TB</option>
-                                            </optgroup>
-                                            <optgroup label="SSD M2">
-                                                <option value="">Kingston 500Gb</option>
-                                                <option value="">Western Digital 240TB</option>
-                                            </optgroup>
-                                        </select>
-                                        <input type="button" value="Incluir" class="botao-list">
-                                        <textarea name="" id="quadro-branco" cols="30" rows="10">
+                                        <form action="" name="form">
+                                            <select name='' id="Produtos" class="selecao" value="copra" onchange="">
+                                                <option value="---" >---</option>
+                                                <optgroup label="Memória DDR3">
+                                                    <option value="110" id="King4GB" name="Kingston 4Gb" itemid="Kingston 4Gb">Kingston 4Gb</option>
+                                                    <option value="220" id="Sam8GB" name="Samsung 8Gb">Samsung 8Gb</option>
+                                                </optgroup>
+                                                <optgroup label="Memória DDR4">
+                                                    <option  value="330" id="Fury8GB" name="Kingston fury 8Gb">Kingston fury 8Gb</option>
+                                                    <option  value="300"id="Cosair8GB" name="Cosair Vengeance 8Gb">Cosair Vengeance 8Gb</option>
+                                                </optgroup>
+                                                <optgroup label="HD Sata III">
+                                                    <option  value="220" name="Western Digital 500 Gb">Western Digital 500 Gb</option>
+                                                    <option  value="300" name="Seagate 1 TB">Seagate 1 TB</option>
+                                                </optgroup>
+                                                <optgroup label="SSD Sata III">
+                                                    <option  value="250" name="Samdisk 480 Gb">Samdisk 480 Gb</option>
+                                                    <option  value="500" name="Kingston 960 TB">Kingston 960 TB</option>
+                                                </optgroup>
+                                                <optgroup label="SSD M2">
+                                                    <option  value="223" name="Kingston 500Gb">Kingston 500Gb</option>
+                                                    <option value="150" name="Western Digital 240TB">Western Digital 240TB</option>
+                                                </optgroup>
+                                            </select>
+                                        </form>                                   
+                                        <input type="button" value="Incluir" class="botao-list" id="Incluir" onclick="">
+                                        <textarea name="" id="quadro-branco" cols="30" rows="10"></textarea>
 
-                                        </textarea>
                                         <p class="text-table" id="valor"> 
                                             valor:R$
                                         </p>
@@ -128,16 +130,16 @@
                                         <div class="date-card">
                                             <div class="numeros-deCartao">
                                                 <p class="text-table" id="Numeros">Numero:</p>
-                                                <input type="number" class="numbers-card">
-                                                <input type="number" class="numbers-card">
-                                                <input type="number" class="numbers-card">
-                                                <input type="number" class="numbers-card" id="ultimo-numero">
+                                                <input type="number" class="numbers-card" min="1" max="9999">
+                                                <input type="number" class="numbers-card" min="1" max="9999">
+                                                <input type="number" class="numbers-card" min="1" max="9999">
+                                                <input type="number" class="numbers-card" id="ultimo-numero" min="1" max="9999">
                                             </div>
                                             <div class="validadee">
                                                 <p class="text-table" id="validade">
                                                     Validade:
                                                 </p class="text-table">
-                                                <input type="number" class="validade" max="12">
+                                                <input type="number" class="validade"  min="1" max="12">
                                                 <p class="validade" id="separador">
                                                     /
                                                 </p>
@@ -181,5 +183,6 @@
                 </div>
             </main>
     </div>
+    <script src="../scripts/add-produtos.js"></script>
 </body>
 </html>
