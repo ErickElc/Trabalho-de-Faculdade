@@ -91,7 +91,7 @@
                                         <p id="produtos">produtos:</p>
                                         <form action="" name="form">
                                             <select name='' id="Produtos" class="selecao" value="copra" onchange="">
-                                                <option value="---" >---</option>
+                                                <option value="---" id="op1">---</option>
                                                 <optgroup label="Memória DDR3">
                                                     <option value="110" id="King4GB" name="Kingston 4Gb" itemid="Kingston 4Gb">Kingston 4Gb</option>
                                                     <option value="220" id="Sam8GB" name="Samsung 8Gb">Samsung 8Gb</option>
@@ -166,7 +166,7 @@
                                                         </div>
                                                         <div class="Bandeirass">
                                                             <input type="radio" class="bandeira-cardd" id="text-white" value="Elo" name="bandeira">
-                                                            <label for="Elo" class="bandeira-card">Elo</label>
+                                                             <label for="Elo" class="bandeira-card">Elo</label>
                                                         </div>
                                                     </div>
                                                 </fieldset>
@@ -174,8 +174,8 @@
                                         </div>
                                 </fieldset>
                                 <div class="submit-clear">
-                                    <input type="button" value="Confirmar" class="botao-list">
-                                    <input type="button" value="Limpar"class="botao-list">
+                                    <input type="button" value="Confirmar" class="botao-list" onclick="Confimar()">
+                                    <input type="button" value="Limpar"class="botao-list" onclick="Limpar()">
                                 </div>
                             </form>
                         </div>
